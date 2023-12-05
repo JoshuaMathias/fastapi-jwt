@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "fastapi-jwt"
-description = "`FastAPI` extension for JTW Auth"
+name = "fastapi-jwt-extended"
+description = "`FastAPI` extension for JTW Auth. This package is a fork of the original fastapi-jwt to fix issues such as sending additional parameters to the jose decode function."
 readme = "README.md"
 license = {text = "MIT License"}
 authors = [
-  {name = "Konstantin Chernyshev", email = "kdchernyshev@gmail.com"},
+  {name = "Joshua Mathias", email = "joshuaamathias@gmail.com"},
 ]
 dynamic = ["version"]
 
@@ -32,7 +32,7 @@ dependencies = [
 
 
 [project.urls]
-homepage = "https://github.com/k4black/fastapi-jwt"
+homepage = "https://github.com/JoshuaMathias/fastapi-jwt"
 documentation = "https://k4black.github.io/fastapi-jwt/"
 
 
